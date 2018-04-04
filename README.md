@@ -13,9 +13,12 @@ Recommended Method :
 
 1. Open CMD as Admin (Windows + X --> Command Prompt (Admin))
 2.  paste this line into the cmd and press enter.
+
 copy C:\WINDOWS\system32\ig4icd64.dll C:\WINDOWS\SysWOW64\ig4icd64.dll
+
 3. Run the tool above to patch the files. (Ignore any error messages)
 4. Paste this line after patching is done into cmd.
+
 copy C:\WINDOWS\SysWOW64\ig4icd64.dll C:\WINDOWS\system32\ig4icd64.dll .
 
 
