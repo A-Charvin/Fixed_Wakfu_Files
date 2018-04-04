@@ -21,8 +21,9 @@ copy C:\WINDOWS\SysWOW64\ig4icd64.dll C:\WINDOWS\system32\ig4icd64.dll .
 
 Manual Method :
 
-If you don't want to go through the steps above, then just extract the archive and copy paste the files into System32 and SysWOW64 foders.
+If you don't want to go through the steps above, then just extract the archive and copy paste the files into System32 and SysWOW64 folders.
 
+Files : https://goo.gl/gE7m58
 
 Launch the game from the client and it should be running fine. 
 Welcome back once again to wakfu.
