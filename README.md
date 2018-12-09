@@ -13,7 +13,7 @@ Required tool : https://github.com/LWJGL/lwjgl/files/1174591/Intel.HD.Graphics.D
 
 The cleanest way to get Java x64 OpenGL programs working: just install this shim with double-click on the .cmd file after extracting the zip archive. That's all. No DLL patching needed. Admin privileges are requested at launch so no run as admin is needed.
 
-For both 32 bit and 64 Bit : Legacy
+For both 32 bit and 64 Bit : https://github.com/LWJGL/lwjgl/files/1774275/legacy-igpu.zip
 
 # Manual Method :
 
