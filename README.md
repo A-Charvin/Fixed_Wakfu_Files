@@ -29,7 +29,7 @@ Files : https://goo.gl/gE7m58 <- Not Generic
 
 3. Run the tool below to patch the files. (Ignore any error messages)
 
-Requiredtool:https://github.com/LWJGL/lwjgl/files/1174591/Intel.HD.Graphics.Driver.Win10.32-bit.64-bit.Fix.by.MST.zip
+Requiredtool:https://github.com/LWJGL/lwjgl/files/1174591/Intel.HD.Graphics.Driver.Win10.32-bit.64-bit.Fix.by.MST.zip [Gives Virus warnings now. Updated version added.]
 
 4. Paste this line after patching is done into cmd.
 
