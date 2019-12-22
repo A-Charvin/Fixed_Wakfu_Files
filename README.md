@@ -31,6 +31,8 @@ Files : https://goo.gl/gE7m58 <- Not Generic
 
 Requiredtool:https://github.com/LWJGL/lwjgl/files/1174591/Intel.HD.Graphics.Driver.Win10.32-bit.64-bit.Fix.by.MST.zip [Gives Virus warnings now. Updated version added.]
 
+https://raw.githubusercontent.com/A-Charvin/Fixed_Wakfu_Files/master/intel.hd.graphics.driver.win10.fix.wakfu.-patch.zip
+
 4. Paste this line after patching is done into cmd.
 
 `copy C:\WINDOWS\SysWOW64\ig4icd64.dll C:\WINDOWS\system32\ig4icd64.dll`
