@@ -46,5 +46,7 @@ The tool might trigger some alarms in some av's. If that scares you, then just f
 The Manual files, how ever is not generic so you have better luck with the patch any way.
 
 # Updates :
-Title from 1.59 to 1.60
 Alternate and Recommended methods swapped for easy implementation. 
+Added the patched files to the repository itself so if any one come across this they can get them directly.
+More reports where from users with Intel i3 machines and just normal copy pasting the files turned out to be working well for them so that method is prefered now.
+Updated on 10/10/2020 <- Kinda like that. 
