@@ -15,10 +15,10 @@ The cleanest way to get Java x64 OpenGL programs working: just install this shim
 
 For both 32 bit and 64 Bit : https://github.com/LWJGL/lwjgl/files/1774275/legacy-igpu.zip
 
-# Manual Method :
+# Manual Method : [The only working method now on some devices]
 
 If you don't want to go through the steps above, then just extract the archive and copy paste the files into WINDOWS/system32 and Windows/SysWOW64 folders.
-Files : https://goo.gl/gE7m58 <- Not Generic
+Files : https://goo.gl/gE7m58 <- Not Generic 
 
 # Alternate Method :
 
