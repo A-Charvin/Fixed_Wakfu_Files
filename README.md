@@ -9,35 +9,43 @@ Original post from where i got the solution : https://github.com/LWJGL/lwjgl/iss
 
 Required tool : https://github.com/LWJGL/lwjgl/files/1174591/Intel.HD.Graphics.Driver.Win10.32-bit.64-bit.Fix.by.MST.zip
 
+
+Note : This procedure is aimed at Intel i3 based machines who has a display driver version above **15.22.58.64.2993 / 8.15.10.2993**
+
+**| If your display driver version is below the one mentioned above, then please look up ways to upgrade your graphics drivers to the version mentioned above or higher before using the methods. Unless the drivers are above the version number mentioned, It has a very low chance of working. |**
+
+
+    1. The Basic Required Drivers from Intel : Intel Graphics Media Accelerator Driver : http://bit.ly/Intel2993
+    2. Driver Installation : How to Manually Install the Drivers : http://bit.ly/H2GMI
+    3. Cannot Install the driver? : How to Install Unsigned Drivers in Windows : http://bit.ly/UnsignD
+
+
 # Recommended Method :
 
-The cleanest way to get Java x64 OpenGL programs working: just install this shim with double-click on the .cmd file after extracting the zip archive. That's all. No DLL patching needed. Admin privileges are requested at launch so no run as admin is needed.
+Driver update and patching the files is the recommended way now. 
 
-For both 32 bit and 64 Bit : https://github.com/LWJGL/lwjgl/files/1774275/legacy-igpu.zip
+ Method After Updating the display drivers :
 
-# Manual Method : [The only working method now on some devices]
-
-If you don't want to go through the steps above, then just extract the archive and copy paste the files into WINDOWS/system32 and Windows/SysWOW64 folders.
-Files : https://goo.gl/gE7m58 <- Not Generic 
-
-# Alternate Method :
-
-1. Open CMD as Admin (Windows + X --> Command Prompt (Admin))
-2.  Paste this line into the cmd and press enter.
-
-`copy C:\WINDOWS\system32\ig4icd64.dll C:\WINDOWS\SysWOW64\ig4icd64.dll`
-
-3. Run the tool below to patch the files. (Ignore any error messages)
+ Run the tool below to patch the files. (Ignore any error messages)
 
 Requiredtool:https://github.com/LWJGL/lwjgl/files/1174591/Intel.HD.Graphics.Driver.Win10.32-bit.64-bit.Fix.by.MST.zip [Gives Virus warnings now. Updated version added.]
 
 https://raw.githubusercontent.com/A-Charvin/Fixed_Wakfu_Files/master/intel.hd.graphics.driver.win10.fix.wakfu.-patch.zip
 
-4. Paste this line after patching is done into cmd.
 
-`copy C:\WINDOWS\SysWOW64\ig4icd64.dll C:\WINDOWS\system32\ig4icd64.dll`
+**Procedure for i3,i5 - Driver Version check / Manual installation**
 
-Launch the game from the client and it should be running fine. 
+1. Check graphics driver version, : How to check version
+![image](https://user-images.githubusercontent.com/20741723/118933288-a6224a80-b966-11eb-8f7f-9a9a7a6c7437.png)
+
+Check whether if it is lower than **15.22.58.64.2993 or 8.15.10.2993**
+Proceed to the next steps if the version if it is lower
+(_If it is higher then follow the patching guide above_)
+
+2. Download the modified intel driver in zip format : [Link]
+
+3. Attempt manual installation of the drives again following the same guide above. It should get installed.
+4. Run the game, If it works fine then it's done, Else download the patch and patch the files and run wakfu.
 
 # Welcome back to Wakfu.
 
@@ -46,7 +54,4 @@ The tool might trigger some alarms in some av's. If that scares you, then just f
 The Manual files, how ever is not generic so you have better luck with the patch any way.
 
 # Updates :
-Alternate and Recommended methods swapped for easy implementation. 
-Added the patched files to the repository itself so if any one come across this they can get them directly.
-More reports where from users with Intel i3 machines and just normal copy pasting the files turned out to be working well for them so that method is prefered now.
-Updated on 10/10/2020 <- Kinda like that. 
+Updated on 20/05/2021
