@@ -42,7 +42,7 @@ Check whether if it is lower than **15.22.58.64.2993 or 8.15.10.2993**
 Proceed to the next steps if the version if it is lower
 (_If it is higher then follow the patching guide above_)
 
-2. Download the modified intel driver in zip format : [Link]
+2. Download the modified intel driver in zip format : [http://bit.ly/DWin2993
 
 3. Attempt manual installation of the drives again following the same guide above. It should get installed.
 4. Run the game, If it works fine then it's done, Else download the patch and patch the files and run wakfu.
